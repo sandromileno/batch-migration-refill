@@ -1,0 +1,112 @@
+2016-11-23 16:12:21.551  INFO 29654 --- [main] b.c.m.m.BatchMigrationApplication        : Starting BatchMigrationApplication on VATICANO with PID 29654 (/home/sandro/dev/Ambientes/TIM/workspace_intelliJ/migrador-recorrencia-refill/target/classes started by sandro in /home/sandro/dev/Ambientes/TIM/workspace_intelliJ/migrador-recorrencia-refill)
+2016-11-23 16:12:21.554  INFO 29654 --- [main] b.c.m.m.BatchMigrationApplication        : No active profile set, falling back to default profiles: default
+2016-11-23 16:12:21.615  INFO 29654 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@647e447: startup date [Wed Nov 23 16:12:21 BRST 2016]; root of context hierarchy
+2016-11-23 16:12:22.444  WARN 29654 --- [main] s.c.a.AnnotationConfigApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Tomcat.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.tomcat.jdbc.pool.DataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Cannot determine embedded database driver class for database type NONE. If you want an embedded database please put a supported one on the classpath. If you have database settings to be loaded from a particular profile you may need to active it (no profiles are currently active).
+2016-11-23 16:12:22.445  INFO 29654 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2016-11-23 16:12:22.450  INFO 29654 --- [main] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2016-11-23 16:12:22.453 ERROR 29654 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Cannot determine embedded database driver class for database type NONE
+
+Action:
+
+If you want an embedded database please put a supported one on the classpath. If you have database settings to be loaded from a particular profile you may need to active it (no profiles are currently active).
+
+2016-11-23 16:12:59.622  INFO 29708 --- [main] b.c.m.m.BatchMigrationApplication        : Starting BatchMigrationApplication on VATICANO with PID 29708 (/home/sandro/dev/Ambientes/TIM/workspace_intelliJ/migrador-recorrencia-refill/target/classes started by sandro in /home/sandro/dev/Ambientes/TIM/workspace_intelliJ/migrador-recorrencia-refill)
+2016-11-23 16:12:59.625  INFO 29708 --- [main] b.c.m.m.BatchMigrationApplication        : No active profile set, falling back to default profiles: default
+2016-11-23 16:12:59.700  INFO 29708 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@647e447: startup date [Wed Nov 23 16:12:59 BRST 2016]; root of context hierarchy
+2016-11-23 16:13:00.569  INFO 29708 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-11-23 16:13:00.583  INFO 29708 --- [main] b.c.m.m.BatchMigrationApplication        : Started BatchMigrationApplication in 1.324 seconds (JVM running for 1.606)
+2016-11-23 16:13:00.584  INFO 29708 --- [Thread-1] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@647e447: startup date [Wed Nov 23 16:12:59 BRST 2016]; root of context hierarchy
+2016-11-23 16:13:00.585  INFO 29708 --- [Thread-1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2016-11-23 16:14:26.121  INFO 29827 --- [main] b.c.m.m.app.BatchMigrationApplication    : Starting BatchMigrationApplication on VATICANO with PID 29827 (/home/sandro/dev/Ambientes/TIM/workspace_intelliJ/migrador-recorrencia-refill/target/classes started by sandro in /home/sandro/dev/Ambientes/TIM/workspace_intelliJ/migrador-recorrencia-refill)
+2016-11-23 16:14:26.125  INFO 29827 --- [main] b.c.m.m.app.BatchMigrationApplication    : No active profile set, falling back to default profiles: default
+2016-11-23 16:14:26.192  INFO 29827 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3c407114: startup date [Wed Nov 23 16:14:26 BRST 2016]; root of context hierarchy
+2016-11-23 16:14:27.132  INFO 29827 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-11-23 16:14:27.143  INFO 29827 --- [main] b.c.m.m.app.BatchMigrationApplication    : Started BatchMigrationApplication in 1.462 seconds (JVM running for 1.742)
+2016-11-23 16:14:27.144  INFO 29827 --- [Thread-1] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@3c407114: startup date [Wed Nov 23 16:14:26 BRST 2016]; root of context hierarchy
+2016-11-23 16:14:27.145  INFO 29827 --- [Thread-1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2016-11-23 17:44:02.820  INFO 423 --- [main] b.c.m.m.app.BatchMigrationApplication    : Starting BatchMigrationApplication on VATICANO with PID 423 (/home/sandro/dev/Ambientes/TIM/workspace_intelliJ/migrador-recorrencia-refill/target/classes started by sandro in /home/sandro/dev/Ambientes/TIM/workspace_intelliJ/migrador-recorrencia-refill)
+2016-11-23 17:44:02.823  INFO 423 --- [main] b.c.m.m.app.BatchMigrationApplication    : No active profile set, falling back to default profiles: default
+2016-11-23 17:44:02.877  INFO 423 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4dc27487: startup date [Wed Nov 23 17:44:02 BRST 2016]; root of context hierarchy
+2016-11-23 17:44:03.535  WARN 423 --- [main] o.s.c.a.ConfigurationClassEnhancer       : @Bean method ScopeConfiguration.stepScope is non-static and returns an object assignable to Spring's BeanFactoryPostProcessor interface. This will result in a failure to process annotations such as @Autowired, @Resource and @PostConstruct within the method's declaring @Configuration class. Add the 'static' modifier to this method to avoid these container lifecycle issues; see @Bean javadoc for complete details.
+2016-11-23 17:44:03.546  WARN 423 --- [main] o.s.c.a.ConfigurationClassEnhancer       : @Bean method ScopeConfiguration.jobScope is non-static and returns an object assignable to Spring's BeanFactoryPostProcessor interface. This will result in a failure to process annotations such as @Autowired, @Resource and @PostConstruct within the method's declaring @Configuration class. Add the 'static' modifier to this method to avoid these container lifecycle issues; see @Bean javadoc for complete details.
+2016-11-23 17:44:03.712  WARN 423 --- [main] s.c.a.AnnotationConfigApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'batchConfiguration': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'file_to_import' in string value "${file_to_import}"
+2016-11-23 17:44:03.719  INFO 423 --- [main] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2016-11-23 17:44:03.724 ERROR 423 --- [main] o.s.boot.SpringApplication               : Application startup failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'batchConfiguration': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'file_to_import' in string value "${file_to_import}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:376) ~[spring-beans-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1219) ~[spring-beans-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:551) ~[spring-beans-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482) ~[spring-beans-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306) ~[spring-beans-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) ~[spring-beans-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302) ~[spring-beans-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197) ~[spring-beans-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:754) ~[spring-beans-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:866) ~[spring-context-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542) ~[spring-context-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:761) [spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:371) [spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1186) [spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1175) [spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	at br.com.m4u.migration.app.BatchMigrationApplication.main(BatchMigrationApplication.java:15) [classes/:na]
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'file_to_import' in string value "${file_to_import}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:174) ~[spring-core-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126) ~[spring-core-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:219) ~[spring-core-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:193) ~[spring-core-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer$2.resolveStringValue(PropertySourcesPlaceholderConfigurer.java:172) ~[spring-context-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:813) ~[spring-beans-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1079) ~[spring-beans-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1059) ~[spring-beans-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:589) ~[spring-beans-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88) ~[spring-beans-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:370) ~[spring-beans-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	... 16 common frames omitted
+
+2016-11-23 17:45:55.923  INFO 507 --- [main] b.c.m.m.app.BatchMigrationApplication    : Starting BatchMigrationApplication on VATICANO with PID 507 (/home/sandro/dev/Ambientes/TIM/workspace_intelliJ/migrador-recorrencia-refill/target/classes started by sandro in /home/sandro/dev/Ambientes/TIM/workspace_intelliJ/migrador-recorrencia-refill)
+2016-11-23 17:45:55.927  INFO 507 --- [main] b.c.m.m.app.BatchMigrationApplication    : No active profile set, falling back to default profiles: default
+2016-11-23 17:45:56.070  INFO 507 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4dc27487: startup date [Wed Nov 23 17:45:56 BRST 2016]; root of context hierarchy
+2016-11-23 17:45:56.689  WARN 507 --- [main] o.s.c.a.ConfigurationClassEnhancer       : @Bean method ScopeConfiguration.stepScope is non-static and returns an object assignable to Spring's BeanFactoryPostProcessor interface. This will result in a failure to process annotations such as @Autowired, @Resource and @PostConstruct within the method's declaring @Configuration class. Add the 'static' modifier to this method to avoid these container lifecycle issues; see @Bean javadoc for complete details.
+2016-11-23 17:45:56.697  WARN 507 --- [main] o.s.c.a.ConfigurationClassEnhancer       : @Bean method ScopeConfiguration.jobScope is non-static and returns an object assignable to Spring's BeanFactoryPostProcessor interface. This will result in a failure to process annotations such as @Autowired, @Resource and @PostConstruct within the method's declaring @Configuration class. Add the 'static' modifier to this method to avoid these container lifecycle issues; see @Bean javadoc for complete details.
+2016-11-23 17:45:57.112  INFO 507 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService  'taskExecutor'
+2016-11-23 17:45:57.446  INFO 507 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-11-23 17:45:57.456  INFO 507 --- [main] o.s.b.a.b.JobLauncherCommandLineRunner   : Running default command line with: [--file_to_import=/home/sandro/dev/Ambientes/Estudo/refill_reloads.csv, --result_file=/home/sandro/dev/Ambientes/Estudo/result_refill.csv]
+2016-11-23 17:45:57.458  WARN 507 --- [main] o.s.b.c.c.a.DefaultBatchConfigurer       : No datasource was provided...using a Map based JobRepository
+2016-11-23 17:45:57.472  INFO 507 --- [main] o.s.b.c.l.support.SimpleJobLauncher      : No TaskExecutor has been set, defaulting to synchronous executor.
+2016-11-23 17:45:57.512  INFO 507 --- [main] o.s.b.c.l.support.SimpleJobLauncher      : Job: [FlowJob: [name=importUserJob]] launched with the following parameters: [{run.id=1, -result_file=/home/sandro/dev/Ambientes/Estudo/result_refill.csv, -file_to_import=/home/sandro/dev/Ambientes/Estudo/refill_reloads.csv}]
+2016-11-23 17:45:57.535  INFO 507 --- [main] o.s.batch.core.job.SimpleStepHandler     : Executing step: [step1]
+2016-11-23 17:46:44.819  INFO 507 --- [main] .m.m.c.JobCompletionNotificationListener : !!! JOB FINISHED! Time to verify the results
+2016-11-23 17:46:44.823  INFO 507 --- [main] o.s.b.c.l.support.SimpleJobLauncher      : Job: [FlowJob: [name=importUserJob]] completed with the following parameters: [{run.id=1, -result_file=/home/sandro/dev/Ambientes/Estudo/result_refill.csv, -file_to_import=/home/sandro/dev/Ambientes/Estudo/refill_reloads.csv}] and the following status: [STOPPING]
+2016-11-23 17:46:44.825  INFO 507 --- [main] b.c.m.m.app.BatchMigrationApplication    : Started BatchMigrationApplication in 49.299 seconds (JVM running for 49.608)
+2016-11-23 17:46:56.699  INFO 507 --- [Thread-1] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@4dc27487: startup date [Wed Nov 23 17:45:56 BRST 2016]; root of context hierarchy
+2016-11-23 17:46:56.702  INFO 507 --- [Thread-1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2016-11-23 17:46:56.702  INFO 507 --- [Thread-1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'taskExecutor'
+2016-11-23 17:49:29.059  INFO 729 --- [main] b.c.m.m.app.BatchMigrationApplication    : Starting BatchMigrationApplication on VATICANO with PID 729 (/home/sandro/dev/Ambientes/TIM/workspace_intelliJ/migrador-recorrencia-refill/target/classes started by sandro in /home/sandro/dev/Ambientes/TIM/workspace_intelliJ/migrador-recorrencia-refill)
+2016-11-23 17:49:29.071  INFO 729 --- [main] b.c.m.m.app.BatchMigrationApplication    : No active profile set, falling back to default profiles: default
+2016-11-23 17:49:29.194  INFO 729 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@71687585: startup date [Wed Nov 23 17:49:29 BRST 2016]; root of context hierarchy
+2016-11-23 17:49:29.795  WARN 729 --- [main] o.s.c.a.ConfigurationClassEnhancer       : @Bean method ScopeConfiguration.stepScope is non-static and returns an object assignable to Spring's BeanFactoryPostProcessor interface. This will result in a failure to process annotations such as @Autowired, @Resource and @PostConstruct within the method's declaring @Configuration class. Add the 'static' modifier to this method to avoid these container lifecycle issues; see @Bean javadoc for complete details.
+2016-11-23 17:49:29.802  WARN 729 --- [main] o.s.c.a.ConfigurationClassEnhancer       : @Bean method ScopeConfiguration.jobScope is non-static and returns an object assignable to Spring's BeanFactoryPostProcessor interface. This will result in a failure to process annotations such as @Autowired, @Resource and @PostConstruct within the method's declaring @Configuration class. Add the 'static' modifier to this method to avoid these container lifecycle issues; see @Bean javadoc for complete details.
+2016-11-23 17:49:30.197  INFO 729 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService  'taskExecutor'
+2016-11-23 17:49:30.574  INFO 729 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-11-23 17:49:30.588  INFO 729 --- [main] o.s.b.a.b.JobLauncherCommandLineRunner   : Running default command line with: [--file_to_import=/home/sandro/dev/Ambientes/Estudo/refill_reloads.csv, --result_file=/home/sandro/dev/Ambientes/Estudo/result_refill.csv]
+2016-11-23 17:49:30.591  WARN 729 --- [main] o.s.b.c.c.a.DefaultBatchConfigurer       : No datasource was provided...using a Map based JobRepository
+2016-11-23 17:49:30.613  INFO 729 --- [main] o.s.b.c.l.support.SimpleJobLauncher      : No TaskExecutor has been set, defaulting to synchronous executor.
+2016-11-23 17:49:30.672  INFO 729 --- [main] o.s.b.c.l.support.SimpleJobLauncher      : Job: [FlowJob: [name=importUserJob]] launched with the following parameters: [{run.id=1, -result_file=/home/sandro/dev/Ambientes/Estudo/result_refill.csv, -file_to_import=/home/sandro/dev/Ambientes/Estudo/refill_reloads.csv}]
+2016-11-23 17:49:30.701  INFO 729 --- [main] o.s.batch.core.job.SimpleStepHandler     : Executing step: [step1]
+2016-11-23 17:50:09.274  INFO 729 --- [main] .m.m.c.JobCompletionNotificationListener : !!! JOB FINISHED! Time to verify the results
+2016-11-23 17:50:09.278  INFO 729 --- [main] o.s.b.c.l.support.SimpleJobLauncher      : Job: [FlowJob: [name=importUserJob]] completed with the following parameters: [{run.id=1, -result_file=/home/sandro/dev/Ambientes/Estudo/result_refill.csv, -file_to_import=/home/sandro/dev/Ambientes/Estudo/refill_reloads.csv}] and the following status: [STOPPING]
+2016-11-23 17:50:09.281  INFO 729 --- [main] b.c.m.m.app.BatchMigrationApplication    : Started BatchMigrationApplication in 40.709 seconds (JVM running for 41.02)
