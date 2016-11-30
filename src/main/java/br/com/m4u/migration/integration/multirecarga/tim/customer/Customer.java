@@ -10,6 +10,12 @@ public class Customer {
     @JsonProperty("msisdn")
     private String msisdn;
 
+    @JsonProperty("uuid")
+    private String uuid;
+
+    @JsonProperty("cpf")
+    private String documentNumber;
+
     public Customer() {
     }
 
@@ -19,5 +25,21 @@ public class Customer {
 
     public void setMsisdn(String msisdn) {
         this.msisdn = msisdn;
+    }
+
+    public String getUuid() {
+        return uuid;
+    }
+
+    public void setUuid(String uuid) {
+        this.uuid = uuid;
+    }
+
+    public String getDocumentNumber() {
+        return documentNumber;
+    }
+
+    public void setDocumentNumber(String documentNumber) {
+        this.documentNumber = documentNumber;
     }
 }

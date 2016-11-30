@@ -3,9 +3,12 @@ package br.com.m4u.migration.integration.multirecarga.tim.refill.reload;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 /**
- * Created by sandro on 22/11/16.
+ * Created by sandro on 24/11/16.
  */
-public class CreateRefillReloadRequest {
+public class RefillReloadsResponse {
+
+    @JsonProperty("uuid")
+    private String uuid;
 
     @JsonProperty("customer_id")
     private String customerId;
@@ -22,10 +25,32 @@ public class CreateRefillReloadRequest {
     @JsonProperty("times")
     private Integer times;
 
+    @JsonProperty("client_realm")
+    private String clientRealm;
+
     @JsonProperty("document_number")
     private String documentNumber;
 
-    public CreateRefillReloadRequest() {
+    @JsonProperty("application")
+    private String application;
+
+    public RefillReloadsResponse() {
+    }
+
+    public String getUuid() {
+        return uuid;
+    }
+
+    public void setUuid(String uuid) {
+        this.uuid = uuid;
+    }
+
+    public String getCustomerId() {
+        return customerId;
+    }
+
+    public void setCustomerId(String customerId) {
+        this.customerId = customerId;
     }
 
     public String getRecipient() {
@@ -60,6 +85,14 @@ public class CreateRefillReloadRequest {
         this.times = times;
     }
 
+    public String getClientRealm() {
+        return clientRealm;
+    }
+
+    public void setClientRealm(String clientRealm) {
+        this.clientRealm = clientRealm;
+    }
+
     public String getDocumentNumber() {
         return documentNumber;
     }
@@ -68,11 +101,11 @@ public class CreateRefillReloadRequest {
         this.documentNumber = documentNumber;
     }
 
-    public String getCustomerId() {
-        return customerId;
+    public String getApplication() {
+        return application;
     }
 
-    public void setCustomerId(String customerId) {
-        this.customerId = customerId;
+    public void setApplication(String application) {
+        this.application = application;
     }
 }
