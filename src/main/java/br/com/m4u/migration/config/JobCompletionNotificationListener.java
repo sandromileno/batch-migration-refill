@@ -22,5 +22,4 @@ public class JobCompletionNotificationListener extends JobExecutionListenerSuppo
             jobExecution.stop();
         }
     }
-
 }

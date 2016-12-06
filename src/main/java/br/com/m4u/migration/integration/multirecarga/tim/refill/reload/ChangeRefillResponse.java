@@ -2,6 +2,7 @@ package br.com.m4u.migration.integration.multirecarga.tim.refill.reload;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import org.springframework.http.HttpStatus;
+import org.springframework.util.StringUtils;
 
 /**
  * Created by sandro on 25/11/16.
@@ -118,5 +119,9 @@ public class ChangeRefillResponse {
 
     public void setApplication(String application) {
         this.application = application;
+    }
+
+    public boolean wasSuccessful() {
+        return !StringUtils.isEmpty(uuid) && value != 0;
     }
 }

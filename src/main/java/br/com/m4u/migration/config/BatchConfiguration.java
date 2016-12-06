@@ -55,7 +55,7 @@ public class BatchConfiguration {
         reader.setLineMapper(new RefillReloadLineMapper() {{
             setFieldSetMapper(new RefillReloadFieldSetMapper());
             setLineTokenizer(new DelimitedLineTokenizer() {{
-                setNames(new String[] { "msisdn", "amount", "channel", "minimumBalance", "times" });
+                setNames(new String[] { "msisdn", "dependent", "amount", "channel", "minimumBalance", "times" });
             }});
         }});
         return reader;
@@ -73,7 +73,7 @@ public class BatchConfiguration {
         DelimitedLineAggregator<RefillReloadResponseProcessor> delLineAgg = new DelimitedLineAggregator<RefillReloadResponseProcessor>();
         delLineAgg.setDelimiter(",");
         BeanWrapperFieldExtractor<RefillReloadResponseProcessor> fieldExtractor = new BeanWrapperFieldExtractor<RefillReloadResponseProcessor>();
-        fieldExtractor.setNames(new String[] {"status", "responseBody", "externalId", "periodicity", "amount", "recipient", "anniversary"});
+        fieldExtractor.setNames(new String[] {"status", "responseBody", "recipient", "amount", "minimumBalance", "times", "documentNumber"});
         delLineAgg.setFieldExtractor(fieldExtractor);
         writer.setLineAggregator(delLineAgg);
         return writer;

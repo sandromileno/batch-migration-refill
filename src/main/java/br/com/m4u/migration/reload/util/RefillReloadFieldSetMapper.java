@@ -20,6 +20,7 @@ public class RefillReloadFieldSetMapper implements FieldSetMapper<RefillReload> 
         refillReload.setChannel(ChannelEnum.getChannel(fieldSet.readString("channel")));
         refillReload.setTimes(fieldSet.readInt("times"));
         refillReload.setMinimumBalance(fieldSet.readInt("minimumBalance")*100);
+        refillReload.setDependent(fieldSet.readString("dependent"));
         return refillReload;
     }
 }
